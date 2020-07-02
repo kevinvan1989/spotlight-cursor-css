@@ -1,0 +1,19 @@
+:root {
+  --mouse-x: 0px;
+  --mouse-y: 0px;
+}
+
+body {
+  background: #000;
+  width: 100vw;
+  height: 100vh;
+}
+body .container {
+  height: 100%;
+  width: 100%;
+  background: url(../img/bg-chocolate.jpg);
+  background-size: cover;
+  -webkit-clip-path: circle(150px at var(--mouse-x) var(--mouse-y));
+          clip-path: circle(150px at var(--mouse-x) var(--mouse-y));
+}
+/*# sourceMappingURL=screen.css.map */
